@@ -1,0 +1,279 @@
+Inception Score:1.668035864830017
+FID:318.46853080926905
+sFID:77.94025650777814
+
+(Origin paper PTQ4DM on CIFAR10, Uniform sample distribution)
+quant_part_1w_1024uniform_1000iters.npz
+Inception Score:8.920787811279297
+FID:19.39927329947494
+sFID:15.918025979711729
+
+Sample batch is ../../outputs/quant_part_with_updownSample_1w_1024uniform_1000iters.npz
+Inception Score:9.223417282104492
+FID:17.400859196599242
+sFID:14.568993702259604
+
+Sample batch is ../../outputs/quant_part_with_activation_1w_1024uniform_1000iters.npz
+Inception Score:9.315425872802734
+FID:15.194552922947707
+sFID:13.695496708553605
+Sample batch is ../../outputs/quant_part_1w_1024normal_1000iters.npz
+Inception Score:1.2351727485656738
+FID:388.7938501253809
+sFID:297.0394873711882
+Sample batch is ../../outputs/quant_part_1w_1024uniform_1000iters.npz
+Inception Score:7.4100341796875
+FID:46.04232943508521
+sFID:29.064360423501967
+Sample batch is ../../outputs/quant_part_1w_1024uniform_1000iters.npz
+Inception Score:7.6143693923950195
+FID:44.16388380693013
+sFID:28.04786722804829
+Sample batch is ../../outputs/quant_all_5w_8192uniform_1000iters.npz
+Inception Score:1.668035864830017
+FID:318.468530809269
+sFID:77.94025650777724
+Sample batch is ../../outputs/quant_part_1w_1024uniform_resAllAct_1000iters.npz
+Inception Score:9.416118621826172
+FID:18.00920944148845
+sFID:16.402553711924497
+Sample batch is ../../outputs/quant_all_5w_8192uniform_1000iters.npz
+Inception Score:1.668035864830017
+FID:318.468530809269
+sFID:77.94025650777724
+Sample batch is ../../outputs/quant_part_1w_1024uniform_disableOutAct_1000iters.npz(Baseline)
+Inception Score:9.334514617919922
+FID:17.79372075064032
+sFID:16.330892220516944
+Sample batch is ../../outputs/quant_part_1w_1024uniform_enableOutAct_1000iters.npz
+Inception Score:9.326577186584473
+FID:18.05769125137482
+sFID:16.43250157125817
+Sample batch is ../../outputs/quant_part_1w_1024uniform_disableOutAct_actFirst_1000iters.npz
+Inception Score:7.399147033691406
+FID:44.349513989772504
+sFID:28.088322788744108
+Sample batch is ../../outputs/quant_part_1w_1024uniform_disableOutAct_noSilu_1000iters.npz
+Inception Score:9.353286743164062
+FID:17.6754067118398
+sFID:16.800494252316184
+Sample batch is ../../outputs/quant_part_1w_1024uniform_noConv1d_1000iters.npz
+Inception Score:9.428717613220215
+FID:17.60553446808791
+sFID:16.770461490693265
+Sample batch is ../../outputs/quant_part_1w_1024uniform_actOutAndSkipConn_1000iters.npz
+Inception Score:9.097457885742188
+FID:17.70110997723947
+sFID:14.744233407535035
+Sample batch is ../../outputs/quant_part_1w_4096uniform_actOutAndSkipConn_1000iters.npz
+Inception Score:8.87742805480957
+FID:18.567051272477045
+sFID:15.656588522012612
+Sample batch is ../../outputs/quant_part_1w_8192uniform_actOutAndSkipConn_1000iters.npz
+Inception Score:9.004962921142578
+FID:18.172926871888194
+sFID:15.666176450055104
+Sample batch is ../../outputs/quant_part_1w_8192normal_fold_InEmb_act_1000iters.npz
+Inception Score:2.0548720359802246
+FID:291.1250054225119
+sFID:70.83263295783229
+Sample batch is ../../outputs/quant_part_1w_8192uniform_fold_InEmb_act_1000iters.npz
+Inception Score:2.0554747581481934
+FID:286.0074072818089
+sFID:67.26936574622209
+Sample batch is ../../outputs/quant_part_1w_1024normal_disableResQuant_1000iters.npz
+Inception Score:9.572694778442383
+FID:14.594809678596391
+sFID:13.606271906467327
+Sample batch is ../../outputs/quant_part_1w_1024uniform_disableResQuant_1000iters.npz
+Inception Score:9.105194091796875
+FID:17.783341640290303
+sFID:15.028723792304163
+Sample batch is ../../outputs/quant_part_1w_1024uniform_orgWithResBlock_1000iters.npz
+Inception Score:1.170076847076416
+FID:422.98679849727426
+sFID:143.7130589329268
+Sample batch is ../../outputs/quant_part_1w_1024uniform_newActOrder_1000iters.npz
+Inception Score:7.483425140380859
+FID:44.823686019828756
+sFID:25.769748672925743
+Sample batch is ../../outputs/quant_part_1w_1024uniform_orgDisableOutAndSkipAct_1000iters.npz
+Inception Score:1.2371522188186646
+FID:415.1695820323778
+sFID:130.95634560790552
+Sample batch is ../../outputs/quant_part_1w_1024uniform_orgResBlock_1000iters.npz
+Inception Score:1.2375099658966064
+FID:414.92658619914334
+sFID:130.73857831885283
+Sample batch is ../../outputs/quant_part_1w_1024uniform_reTryBaseline_DisEmbAct_1000iters.npz
+Inception Score:9.43362045288086
+FID:14.896141211026361
+sFID:13.834260055281902
+Sample batch is ../../outputs/quant_part_1w_1024uniform_reTryBaseline_1000iters.npz
+Inception Score:9.37392807006836
+FID:17.588685400527424
+sFID:16.709787926404715
+Sample batch is ../../outputs/quant_part_1w_1024uniform_mergeActConv_1000iters.npz
+Inception Score:7.5102362632751465
+FID:44.29769903201128
+sFID:27.354233244620332
+Sample batch is ../../outputs/quant_part_1w_1024normal_baselineU2N_1000iters.npz
+Inception Score:9.356308937072754
+FID:14.977300172703508
+sFID:13.585240758017562
+Sample batch is ../../outputs/quant_part_1w_1024uniform_quantNormAct_1000iters.npz
+Inception Score:1.172361969947815
+FID:421.4700037697778
+sFID:154.18944931887017
+Sample batch is ../../outputs/quant_part_1w_1024uniform_openSubQuant_1000iters.npz
+Inception Score:9.407303810119629
+FID:15.011479267392247
+sFID:13.676581974472242
+Sample batch is ../../outputs/quant_part_5w_8192uniform_MyBaseline_1000iters.npz
+Inception Score:9.297221183776855
+FID:12.797430941087043
+sFID:7.653846258968088
+Sample batch is ../../outputs/quant_part_1w_1024uniform_openSubQuant_foldActConv_1000iters.npz
+Inception Score:7.48690128326416
+FID:45.212150164934314
+sFID:27.677437672008864
+Sample batch is ../../outputs/quant_part_1w_1024uniform_openSubQuant_foldActConv_ActOut_1000iters.npz
+Inception Score:7.459973335266113
+FID:45.30376178512455
+sFID:28.67147442616647
+Sample batch is ../../outputs/quant_part_1w_1024uniform_openSubQuant_actLast_actOUT_1000iters.npz
+Inception Score:1.1404337882995605
+FID:405.8188011437776
+sFID:125.8179293077315
+Sample batch is ../../outputs/quant_part_1w_1024uniform_openSubQuant_actLast_1000iters.npz
+Inception Score:1.2424850463867188
+FID:415.0951562019928
+sFID:130.9539075689646
+Sample batch is ../../outputs/quant_part_1w_1024uniform_foldEmb_1000iters.npz
+Inception Score:6.1998982429504395
+FID:74.82470268970792
+sFID:48.28792612408847
+Sample batch is ../../outputs/quant_part_1w_1024uniform_foldInput_1000iters.npz
+Inception Score:1.666344404220581
+FID:372.0004170568065
+sFID:99.05556850528939
+Sample batch is ../../outputs/quant_part_1w_1024uniform_foldInput_1000iters.npz
+Inception Score:1.5838050842285156
+FID:311.52824860572264
+sFID:131.54814242798102
+Sample batch is ../../outputs/quant_part_1w_1024uniform_foldEmb_1000iters.npz
+Inception Score:1.3968491554260254
+FID:363.6717186616162
+sFID:155.4046181204518
+Sample batch is ../../outputs/quant_part_1w_1024uniform_noActQuant_1000iters.npz
+Inception Score:2.053393840789795
+FID:295.63829787668817
+sFID:73.03985691747494
+Sample batch is ../../outputs/quant_part_1w_1024uniform_foldInputEmb_1000iters.npz
+Inception Score:1.402461290359497
+FID:361.1344612400657
+sFID:155.943488376296
+Sample batch is ../../outputs/quant_part_1w_1024uniform_noActQuant_1000iters.npz
+Inception Score:9.256904602050781
+FID:15.123981226935484
+sFID:13.777265969298469
+Sample batch is ../../outputs/quant_part_1w_1024uniform_foldEmb_1000iters.npz
+Inception Score:7.516182899475098
+FID:44.23358648039061
+sFID:27.593597673917316
+Sample batch is ../../outputs/quant_part_1w_1024uniform_foldEmbBefore_1000iters.npz
+Inception Score:1.166527271270752
+FID:415.40831499120753
+sFID:137.47463054369427
+Sample batch is ../../outputs/quant_part_1w_1024uniform_foldActInQModule_1000iters.npz
+Inception Score:7.438403129577637
+FID:45.015922070532554
+sFID:27.892934928529485
+Sample batch is ../../outputs/quant_part_1w_1024uniform_quantInput_1000iters.npz
+Inception Score:9.377655029296875
+FID:15.537937002565286
+sFID:13.698559359118008
+Sample batch is ../../outputs/quant_part_1w_1024uniform_quantEmb_1000iters.npz
+Inception Score:7.601860046386719
+FID:43.33964921222724
+sFID:27.418187868900645
+Sample batch is ../../outputs/quant_part_1w_1024uniform_noUpsampleQuant_1000iters.npz
+Inception Score:9.449641227722168
+FID:15.582935915680366
+sFID:13.69764867295737
+Sample batch is ../../outputs/quant_part_1w_1024uniform_quantOut_1000iters.npz
+Inception Score:9.158208847045898
+FID:15.648604503273305
+sFID:13.498777250374587
+Sample batch is ../../outputs/quant_part_1w_1024uniform_noSkipConnQuant_1000iters.npz
+Inception Score:9.256649017333984
+FID:14.376793630276723
+sFID:13.963636946381712
+Sample batch is ../../outputs/quant_part_1w_1024uniform_noDownsampleQuant_1000iters.npz
+Inception Score:9.455558776855469
+FID:15.250619554802995
+sFID:13.611428818048239
+Sample batch is ../../outputs/quant_part_1w_1024uniform_noResBlockQuant_1000iters.npz
+Inception Score:9.354009628295898
+FID:14.322893780241941
+sFID:14.376856597300048
+Sample batch is ../../outputs/quant_part_1w_1024uniform_noEmbQuant_1000iters.npz
+Inception Score:9.287967681884766
+FID:15.735703368503437
+sFID:13.454517233928755
+Sample batch is ../../outputs/quant_part_1w_1024uniform_refineStructure_1000iters.npz
+Inception Score:9.34958267211914
+FID:14.689530618718095
+sFID:16.91452011941624
+Sample batch is ../../outputs/quant_part_1w_1024uniform_refineStructure_quantResNetOnly_1000iters.npz
+Inception Score:9.286572456359863
+FID:12.877667876804821
+sFID:13.518370848595055
+Sample batch is ../../outputs/quant_part_1w_1024uniform_refineStructure_1000iters.npz
+Inception Score:9.495084762573242
+FID:13.450844955925675
+sFID:15.408419294435362
+Sample batch is ../../outputs/quant_part_1w_1024uniform_refineStructure_NoEmbSplit_1000iters.npz
+Inception Score:9.593379974365234
+FID:13.500070851696933
+sFID:15.327909852557127
+Sample batch is ../../outputs/quant_part_1w_1024uniform_refineStructure_NoOutQuant_1000iters.npz
+Inception Score:9.267871856689453
+FID:14.550152234948428
+sFID:14.732107076680677
+Sample batch is ../../outputs/quant_part_1w_1024uniform_refineStructure_NoOutWeightQuant_1000iters.npz
+Inception Score:9.448034286499023
+FID:12.659165654517096
+sFID:15.160537038910661
+Sample batch is ../../outputs/quant_part_1w_1024uniform_refineStructure_noQuantAttn_1000iters.npz
+Inception Score:9.10744857788086
+FID:12.781544007869456
+sFID:13.522280653243342
+Sample batch is ../../outputs/quant_part_1w_1024uniform_refineStructure_quantAttn_1000iters.npz
+Inception Score:9.297828674316406
+FID:13.093627385594175
+sFID:13.536094677446158
+Sample batch is ../../outputs/quant_w4a8_all_5w_8192uniform_refineStructure_QuantAttn_QuantResBlock_1000iters.npz
+Inception Score:8.497092247009277
+FID:17.795563502141363
+sFID:13.723147748956876
+Sample batch is ../../outputs/quant_all_5w_8192uniform_refineStructure_QuantAttn_QuantResBlock_1000iters.npz
+Inception Score:9.240405082702637
+FID:10.720024757606268
+sFID:7.428760216284218
+Sample batch is ../../outputs/quant_w8a8_all_5w_8192uniform_refineStructure_fakeLoop_normal_1000iters.npz
+Inception Score:9.267171859741211
+FID:10.708401284817569
+sFID:7.484339491721244
+Sample batch is ../../outputs/quant_w8a8_all_5w_8192uniform_refineStructure_fakeLoop_1000iters.npz
+Inception Score:9.246610641479492
+FID:10.728323996818403
+sFID:7.384825663012862
+Sample batch is ../../outputs/imagenet_quant_w8a8_all_5w_8192normal_refineStructure_normal_1000iters.npz
+Inception Score:15.279317855834961
+FID:19.369318586307884
+sFID:6.806672642971762
+Sample batch is ../../outputs/imagenet_quant_w8a8_all_5w_8192uniform_refineStructure_fakeLoop_1000iters.npz
+Inception Score:15.302825927734375
+FID:19.266876309115105
+sFID:6.633349580917979
