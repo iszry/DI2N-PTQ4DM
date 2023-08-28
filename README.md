@@ -9,13 +9,13 @@ Then, we compared the performance of **N**ormally **D**istributed **T**ime-step 
 
 ## A further step based on PTQ4DM
 
-We observed that IS and sFID in 8-bit PTQ4DM can reach or even exceed those in the full-precision model. However, there is always a significant loss on **FID** after quantization. Therefore, we propose some methods (D2IN) to improve the performance on FID.
+We observed that IS and sFID in 8-bit PTQ4DM can reach or even exceed those in the full-precision model. However, there is always a significant loss on **FID** after quantization. Therefore, we propose some methods (D2IN) to improve the performance on FID and achieve a lower FID than that of DDIM.
 
 | Method    |  CIFAR10   |  IS↑   |  FID↓   |  sFID↓   |   ImageNet64  |  IS↑   |  FID↓   |  sFID↓   |
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 |FP32|DDIM|**9.25**|**10.60**|**7.41**|DDIM|**15.20**|**19.59**|**9.45**|
-|PTQ4DM|Normal|**9.38**|12.85|7.53|Normal|**15.59**|22.02|6.62|
-|DI2N (Ours)|Uniform|9.25|**10.71**|**7.38**|Uniform|15.30|**19.27**|**6.63**|
+|PTQ4DM|Normal|**9.38**|12.85|7.53|Normal|**15.59**|22.02|**6.62**|
+|DI2N (Ours)|Uniform|9.25|**10.71**|**7.38**|Uniform|15.30|**19.27**|6.63|
 
 > IS loss is caused by the extent of quantization. However, it still outperforms that of DDIM.
 
