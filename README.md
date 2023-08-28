@@ -61,4 +61,4 @@ We observed that IS and sFID in 8-bit PTQ4DM can reach or even exceed those in t
 
 [[1505.04597] U-Net: Convolutional Networks for Biomedical Image Segmentation (arxiv.org)](https://arxiv.org/abs/1505.04597)
 
-[[2302.04304\] Q-Diffusion: Quantizing Diffusion Models (arxiv.org)](https://arxiv.org/abs/2302.04304)
+[[2302.04304] Q-Diffusion: Quantizing Diffusion Models (arxiv.org)](https://arxiv.org/abs/2302.04304)
