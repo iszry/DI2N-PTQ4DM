@@ -11,6 +11,10 @@ Then, we compared the performance of **N**ormally **D**istributed **T**ime-step 
 
 We observed that IS and sFID in 8-bit PTQ4DM can reach or even exceed those in the full-precision model. However, there is always a significant loss on **FID** after quantization. Therefore, we propose some methods (D2IN) to improve the performance on FID and achieve a lower FID than that of DDIM.
 
+![DI2N-Pipeline](./asserts/DI2N-Pipeline.png)
+![Quantization-Order](./asserts/Problems_ConvAndActivation.png)
+![Split-TimeEmbedding](./asserts/Problems_SplitTimeEmbedding.png)
+
 | Method    |  CIFAR10   |  IS↑   |  FID↓   |  sFID↓   |   ImageNet64  |  IS↑   |  FID↓   |  sFID↓   |
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
 |FP32|DDIM|**9.25**|**10.60**|**7.41**|DDIM|**15.20**|**19.59**|**9.45**|
