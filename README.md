@@ -1,6 +1,6 @@
-# 2023 HKU Summer Research
+# DI2N-PTQ4DM
 
-Code base for 2023 Summer Research Internship Programme in Department of Computer Science at **The University of Hong Kong**, assigned to the **AI, Robotics and Visual Computing**.
+Code base for 2023 Summer Research Internship Programme both in Department of Computer Science at **The University of Hong Kong** assigned to the **AI, Robotics and Visual Computing** and School of Computer Science and Engineering at **Beihang University** assigned to the **IRIP Lab**.
 
 ## Reproduce results in PTQ4DM
 
